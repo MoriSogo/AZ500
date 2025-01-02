@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.2">
   <diagram name="ページ1" id="UTVBnHbfs3gHb6e7ykVW">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-1" value="EntraConnect&lt;div&gt;&lt;div&gt;(専用のオンプレミスWindowsServerにインストール)&lt;/div&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_Connect.svg;" vertex="1" parent="1">
+          <mxGeometry x="260.6" y="270" width="68" height="64.24" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-2" value="EntraConnectSync" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Entra_Connect_Sync.svg;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="50" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7mwDVdzGJN8A4VN6h1qE-3" target="7mwDVdzGJN8A4VN6h1qE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-3" value="ActiveDirectory(オンプレミス)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="32" width="49.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-4" value="AzureAD" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="26" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7mwDVdzGJN8A4VN6h1qE-6" target="7mwDVdzGJN8A4VN6h1qE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-6" value="AzureADConnect&lt;div&gt;(専用のオンプレミスWindowsServerにインストール)&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="270" y="54" width="49.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-9" value="AzureADConnect(旧)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-10" value="MicrosoftEntraConnect(新)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7mwDVdzGJN8A4VN6h1qE-12" target="7mwDVdzGJN8A4VN6h1qE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="129" y="272" />
+              <mxPoint x="180" y="272" />
+              <mxPoint x="180" y="274" />
+              <mxPoint x="220" y="274" />
+              <mxPoint x="220" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-12" value="ActiveDirectory(オンプレミス)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="244.24" width="49.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-13" value="AzureAD" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="238.24" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7mwDVdzGJN8A4VN6h1qE-13" source="7mwDVdzGJN8A4VN6h1qE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7mwDVdzGJN8A4VN6h1qE-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.5999999999999" y="502" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="129" y="472" />
+              <mxPoint x="180" y="472" />
+              <mxPoint x="180" y="474" />
+              <mxPoint x="220" y="474" />
+              <mxPoint x="220" y="502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-19" value="ActiveDirectory(オンプレミス)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="444.24" width="49.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-20" value="AzureAD" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="438.24" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7mwDVdzGJN8A4VN6h1qE-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328.5999999999999" y="502.0999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-22" value="EntraConnect CloudSync&lt;div&gt;(任意のオンプレミスWindowsServerにエージェントインストール)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Entra_Connect_Sync.svg;" vertex="1" parent="1">
+          <mxGeometry x="260.6" y="460" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="7mwDVdzGJN8A4VN6h1qE-23" value="MicrosoftEntraConnect CloudSync(新)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="400" width="334" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
